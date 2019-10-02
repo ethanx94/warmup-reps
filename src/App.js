@@ -6,7 +6,6 @@ import 'onsenui/css/onsen-css-components.css';
 import GlobalProvider from './js/contexts/GlobalProvider';
 import Main from './js/pages/Main';
 import './css/main.css';
-import './css/normalize.min.css';
 
 const App = () => (
   <GlobalProvider>
