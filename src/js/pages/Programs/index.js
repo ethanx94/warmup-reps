@@ -13,6 +13,7 @@ const Programs = ({ navigator }) => (
       renderRow={({ key, data }) => (
         <ListItem
           key={key}
+          tappable
           onClick={() =>
             navigator.pushPage({
               component: Program,

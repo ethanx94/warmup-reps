@@ -16,6 +16,7 @@ const Program = ({ data, navigator }) => (
       renderHeader={() => <ListHeader>Choose an Exercise</ListHeader>}
       renderRow={(row, idx) => (
         <ListItem
+          tappable
           key={idx}
           onClick={() =>
             navigator.pushPage({
